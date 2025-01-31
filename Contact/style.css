@@ -1,0 +1,158 @@
+body{
+    background-color: lavender;
+}
+
+.main{
+    position: relative;
+    min-height: 100vh;
+}
+
+.others{
+    padding-bottom: 2.5rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-name{
+    font-family: "Playwrite IN", serif;
+    font-style: italic;
+}
+
+button{
+    border: solid rgb(214, 120, 53) 3px !important;
+}
+
+.bar{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 20px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 970px;
+    border: solid rgb(214, 120, 53) 3px;
+    border-radius: 15px;
+    background-color: ghostwhite;
+    margin-top: 80px;
+}
+
+.text{
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
+.item{
+    margin-bottom: 30px;
+}
+
+.strong{
+    font-family: "Tajawal", serif;
+}
+
+.contacts{
+    font-family: "Grenze", serif;
+    font-weight: 300;
+}
+
+.email{
+    text-underline-offset: 10px;
+}
+
+.photo{
+    display: flex;
+    justify-content: end;
+}
+
+.meme{
+    max-width: 400px;
+    height: 519px;
+    margin: 10px;
+    border-radius: 15px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 992px) {
+    .container{
+        width: 600px;
+    }
+
+    .text{
+        font-size: 1.5rem;
+        letter-spacing: normal;
+    }
+
+    .item{
+        margin-bottom: 20px;
+    }
+
+    .email{
+        text-underline-offset: 7px;
+    }
+
+    .photo{
+        align-items: center;
+    }
+    
+    .meme{
+        width: 240px;
+        height: 305px;
+    }
+
+    .butt{
+        background-color:  ghostwhite !important;
+        border-radius: 10px;
+        border: solid rgb(214, 120, 53) 3px;
+    }
+}
+
+@media (max-width: 766px) {
+    .meme{
+        width: 200px;
+        height: 270px;
+    }
+}
+
+@media (max-width: 575px){
+    .container{
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .text{
+        font-size: 1rem;
+        margin: 5px;
+    }
+
+    .item{
+        margin-bottom: 10px;
+    }
+
+    .email{
+        text-underline-offset: 6px;
+    }
+
+    .meme{
+        width: 180px;
+        height: 210px;
+        margin: 5px;
+    }
+}

@@ -1,0 +1,91 @@
+body{
+    background-color: lavender;
+}
+
+.main{
+    position: relative;
+    min-height: 100vh;
+}
+
+.others{
+    padding-bottom: 2.5rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-name{
+    font-family: "Playwrite IN", serif;
+    font-style: italic;
+}
+
+button{
+    border: solid rgb(214, 120, 53) 3px !important;
+}
+
+.bar{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 20px;
+}
+
+.title{
+    margin: 80px 30px 20px 30px;
+    font-size: 70px;
+    font-family: "Fjalla One", serif;
+}
+
+.text{
+    margin: 30px 30px 0 30px;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: "Grenze", serif;
+    letter-spacing: 1.4px;
+}
+
+.title-img{
+    font-family: "Fjalla One", serif;
+    font-size: 33px;
+}
+
+.around{
+    border: solid rgb(214, 120, 53) 3px;
+}
+
+.back1{
+    min-height: 320px;
+    background-image: url(Landscape.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.back2{
+    min-height: 320px;
+    background-image: url(hike.jpg);
+    background-size: cover;
+    background-position: 80%;
+}
+
+.back3{
+    min-height: 320px;
+    background-image: url(boardgame.jpg);
+    background-size: cover;
+    background-position: 45%;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+    .butt{
+        background-color:  ghostwhite !important;
+        border-radius: 10px;
+        border: solid rgb(214, 120, 53) 3px;
+    }
+}
